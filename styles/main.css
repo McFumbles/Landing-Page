@@ -1,18 +1,50 @@
-.topnav {
-  background-color: #1F2937;
-  font-family: roboto;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.active {
+body {
+  font-family: 'Roboto';
+}
+
+header {
+  background-color: #1f2937;
+  padding: 1em 13em;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 1.5em;
+}
+
+#logo {
   font-size: 24px;
+  font-weight: 900;
   color: #F9FAF8;
 }
 
-.right-link {
-  float: right;
-  padding-right: 50px;
-  font-size: 18px;
+.secondary, a:link {
   color: #E5E7EB;
+  font-size: 18px;
+}
+
+.welcome {
+  background-color: #1F2937;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
 }
 
 a {
