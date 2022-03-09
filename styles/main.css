@@ -1,0 +1,20 @@
+.topnav {
+  background-color: #1F2937;
+  font-family: roboto;
+}
+
+.active {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.right-link {
+  float: right;
+  padding-right: 50px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+a {
+  text-decoration: none;
+}
