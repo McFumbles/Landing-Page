@@ -67,7 +67,7 @@ a:link {
 	color: #f9faf8;
 }
 
-button {
+.left button {
   padding: 5px 1em;
   border-radius: 10px;
   background-color: #3882F6;
@@ -130,7 +130,7 @@ button {
 
 /* QUOTE */
 .quote-container {
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,4 +160,44 @@ button {
   font-size: 18px;
   font-weight: 900;
   color: #1f2937;
+}
+
+/* Sub footer */
+.sub-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
+.content {
+  display: flex;
+  height: 35%;
+  width: 60%;
+  background-color: #3882f6;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.left-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.left-text {
+  font-size: 12px;
+  color: #f9faf8;
+}
+
+.button button {
+  padding: 5px 1em;
+  border: 1px solid #f9faf8;
+  border-radius: 5px;
+  background-color: #3882F6;
+}
+
+.button2 {
+  color: #f9faf8;
 }
