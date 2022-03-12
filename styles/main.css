@@ -201,3 +201,16 @@ a:link {
 .button2 {
   color: #f9faf8;
 }
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #1f2937;
+}
+
+.footer {
+  color: #f9faf8;
+}
